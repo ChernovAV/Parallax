@@ -130,6 +130,13 @@ public class ParallaxFragment extends ListFragment {
         }
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mThumbnailThread.clearQueue();
+    }
+    
+    @Override
     public void onDestroy() {
         super.onDestroy();
         mThumbnailThread.quit();
