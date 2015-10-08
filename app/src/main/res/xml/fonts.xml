@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<familyset>
+
+	<family>
+		<nameset>
+			<name>RobotoBold</name>
+		</nameset>
+		<fileset>
+			<file>RobotoBold.ttf</file>
+		</fileset>
+	</family>
+
+    <family>
+        <nameset>
+            <name>RobotoLight</name>
+        </nameset>
+        <fileset>
+            <file>RobotoLight.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>RobotoRegular</name>
+        </nameset>
+        <fileset>
+            <file>RobotoRegular.ttf</file>
+        </fileset>
+    </family>
+
+</familyset>

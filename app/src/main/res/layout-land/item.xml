@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:pew="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ParallaxDemo$PlaceholderFragment">
+
+    <com.fmsirvent.ParallaxEverywhere.PEWImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        pew:reverse="reverseY"
+        android:scaleType="centerCrop"
+        android:id="@+id/picture" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorGrey">
+
+        <TextViewFont.FontableTextView
+            app:font="RobotoBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText"
+            android:id="@+id/clip"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp" />
+
+        <TextViewFont.FontableTextView
+            app:font="RobotoLight.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            tools:ignore="HardcodedText"
+            android:id="@+id/name"
+            android:layout_below="@+id/count"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp" />
+
+        <TextViewFont.FontableTextView
+            app:font="RobotoRegular.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/count"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp" />
+
+    </LinearLayout>
+</FrameLayout>

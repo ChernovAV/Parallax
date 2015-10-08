@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_ParalaxParse</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="barcelona_guell">Parc Güell</string>
+    <string name="about_text_2"><![CDATA[This is a demo app of a library.<br/>Developed by:<br/><a href=\'http://www.fmsirvent.com\'>fmSirvent</a><br/>You can see more info at:<br/><a href=\'https://github.com/Narfss/ParallaxEverywhere\'>https://github.com/Narfss/ParallaxEverywhere</a>]]></string>
+    <string name="barcelona_texto_2">"Of Barcelona's parks, Montjuïc is the largest, with 203 ha located on the mountain of the same name.[42] It is followed by Parc de la Ciutadella (which occupies the site of the old military citadel and which houses the Parliament building, the Barcelona Zoo and several museums); 31 ha or 76.6 acres including the zoo), the Guinardó Park (19 ha or 47.0 acres), Park Güell (designed by Antoni Gaudí; 17.2 ha or 42.5 acres), Oreneta Castle Park (also 17.2 ha or 42.5 acres), Diagonal Mar Park (13.3 ha or 32.9 acres, inaugurated in 2002), Nou Barris Central Park (13.2 ha or 32.6 acres), Can Dragó Sports Park and Poblenou Park (both 11.9 ha or 29.4 acres), the Labyrinth Park (9.10 ha or 22.5 acres), named after the garden maze it contains.[42]"</string>
+
+</resources>
