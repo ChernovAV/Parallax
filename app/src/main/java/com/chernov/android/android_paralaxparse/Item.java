@@ -4,7 +4,7 @@ package com.chernov.android.android_paralaxparse;
  * Created by Android on 07.10.2015.
  */
 public class Item {
-
+    // clone
     String clip = null;
     String name = null;
     String count = null;
